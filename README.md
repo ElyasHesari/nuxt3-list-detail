@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+# Nuxt3 List & Detail
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3 demo that lists blog posts and shows a rich detail page with SEO-ready metadata, loading states, and related content.
 
-## Setup
+## Tech Stack
+- Nuxt 3, Vue 3, Pinia stores
+- Tailwind CSS for styling
+- Nuxt UI + Image modules
 
-Make sure to install dependencies:
-
+## Quick Start
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Features
+- Grid-based blog list with skeleton, empty, and error states
+- Dynamic detail route (`/blog/[namak]`) with meta tags and related posts
+- Reusable UI components (cards, skeletons, error message)
