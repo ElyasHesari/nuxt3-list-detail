@@ -14,7 +14,7 @@
     </div>
 
     <!-- Error State -->
-    <ErrorMessage
+    <UiErrorMessage
       v-else-if="blogStore.error"
       title="Post Not Found"
       :message="blogStore.error"
